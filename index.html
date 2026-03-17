@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio · 隋锦椋</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Noto+Serif+SC:wght@300;700;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#e8e4d4;font-family:'Share Tech Mono',monospace;min-height:100vh;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:24px;padding:40px}
+.ring{width:72px;height:72px;border-radius:50%;border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;animation:pulse 3s ease-in-out infinite}
+.dot{width:7px;height:7px;border-radius:50%;background:#fff;animation:blink 1.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(255,255,255,.08)}50%{box-shadow:0 0 0 18px rgba(255,255,255,0)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.name{font-family:'Noto Serif SC',serif;font-size:22px;font-weight:900;color:#fff;letter-spacing:.08em}
+.sub{font-size:9px;letter-spacing:.4em;color:rgba(255,255,255,.3);text-transform:uppercase}
+.msg{font-size:9px;letter-spacing:.25em;color:rgba(255,255,255,.18);margin-top:8px}
+</style>
+</head>
+<body>
+<div class="ring"><div class="dot"></div></div>
+<div class="name">隋锦椋</div>
+<div class="sub">Portfolio · Coming Soon</div>
+<div class="msg">作品集正在建设中，敬请期待</div>
+</body>
+</html>
