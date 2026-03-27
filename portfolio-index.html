@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隋锦椋 - 数字媒体艺术作品集</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 20px 40px;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name {
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+
+        .title {
+            font-size: 0.9em;
+            opacity: 0.6;
+            letter-spacing: 1px;
+        }
+
+        .main-content {
+            padding-top: 80px;
+            min-height: 100vh;
+        }
+
+        .iframe-container {
+            width: 100%;
+            height: calc(100vh - 80px);
+            background: #ffffff;
+        }
+
+        .iframe-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .footer {
+            background: #0a0a0a;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            font-size: 0.9em;
+            opacity: 0.7;
+        }
+
+        .contact-item a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .contact-item a:hover {
+            opacity: 1;
+        }
+
+        .copyright {
+            font-size: 0.85em;
+            opacity: 0.5;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 15px 20px;
+            }
+
+            .name {
+                font-size: 1.2em;
+            }
+
+            .title {
+                font-size: 0.8em;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div>
+                <div class="name">隋锦椋</div>
+                <div class="title">数字媒体艺术作品集</div>
+            </div>
+            <div>
+                <div class="title">Digital Media Arts Portfolio</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="iframe-container">
+            <iframe 
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2F6wezqXs87dHGbtn3WpN2TN%2Fbishe" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    📧 <a href="mailto:2970890874@qq.com">2970890874@qq.com</a>
+                </div>
+                <div class="contact-item">
+                    📧 <a href="mailto:rackrealsjl@gmail.com">rackrealsjl@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    📱 135 1106 8003
+                </div>
+                <div class="contact-item">
+                    🔗 <a href="https://github.com/hongguoliangzi" target="_blank">github.com/hongguoliangzi</a>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2026 隋锦椋 · 北京交通大学 · 数字媒体艺术
+            </div>
+        </div>
+    </div>
+</body>
+</html>
